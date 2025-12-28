@@ -1,2 +1,3 @@
 # fast-port-scanning
-A web-based port scanner that uses multi-threading for fast, efficient network scanning with a modern interface.
+
+This web-based port scanner combines Python's Flask backend with a modern HTML/CSS/JS frontend to deliver a powerful yet user-friendly network scanning tool. It efficiently scans target IPs for open ports using multi-threaded socket connections, covering common ports (21-27019) with service detection. The responsive dark-themed interface provides real-time feedback during scans, showing detailed results with port numbers and service names. Built with concurrent.futures for parallel processing, it handles timeouts and connection issues gracefully while offering both web interface and API endpoints. :)
